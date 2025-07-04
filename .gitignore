@@ -55,6 +55,12 @@ cover/
 *.mo
 *.pot
 
+# blender files
+#  Blender creates a .blend1 file when saving, which is a backup of the last
+#  saved version of the .blend file.
+*.blend
+*.blend1
+
 # Django stuff:
 *.log
 local_settings.py

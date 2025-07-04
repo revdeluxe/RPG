@@ -1,0 +1,86 @@
+{
+    "inputBindings": {
+        "moveUp": [
+            "W",
+            "gamepad:left_stick_up"
+        ],
+        "moveDown": [
+            "S",
+            "gamepad:left_stick_down"
+        ],
+        "moveLeft": [
+            "A",
+            "gamepad:left_stick_left"
+        ],
+        "moveRight": [
+            "D",
+            "gamepad:left_stick_right"
+        ],
+        "look": [
+            "mouse1",
+            "gamepad:right_stick"
+        ],
+        "jump": [
+            "Space",
+            "gamepad:button_a"
+        ],
+        "menu": [
+            "Escape",
+            "gamepad:button_start"
+        ]
+    },
+    "controllerSettings": {
+        "sensitivity": 0.23280765116214752,
+        "invertYAxis": false,
+        "movementSpeed": 2,
+        "cameraDistance": 2,
+        "cameraHeight": 2,
+        "enableFreeLook": true
+    },
+    "renderingSettings": {
+        "resolution": {
+            "width": 2,
+            "height": 2
+        },
+        "fullscreen": false,
+        "vSync": false,
+        "antiAliasing": true,
+        "textureLodBias": 2.0,
+        "lodbias": {
+            "min": 0.5,
+            "max": 1.0
+        },
+        "memoryLimit": 2,
+        "debugSettings": {
+            "showBoundingBoxes": true,
+            "showCollisionShapes": false,
+            "logEntitySpawn": true,
+            "logEvents": false,
+            "wireframeMode": false,
+            "physicsDebug": false,
+            "drawNavMesh": false,
+            "inputEcho": true,
+            "cameraStateOverlay": true
+        },
+        "hotReload": {
+            "watchShaders": true,
+            "watchPrefabs": true,
+            "watchUI": true
+        },
+        "shaders": {
+            "useCustomShaders": true,
+            "shaderPath": "shaders/"
+        },
+        "features": {
+            "enableHDR": false,
+            "enablePostFX": true,
+            "alternateCombatPrototype": false,
+            "testNewLighting": false,
+            "enableLootDropDebugView": false
+        }
+    },
+    "miscSettings": {
+        "showFPS": true,
+        "enableDebugMode": true
+    }
+}
