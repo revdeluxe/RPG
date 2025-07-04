@@ -23,11 +23,13 @@ Urban design traditionally demands vast manual effort in modelling and detailing
 | Geometry Nodes | Visual logic for structure and patterns   |
 | Panda3D       | Real-time 3D rendering, scene graph management, camera control, and shader support. Enables smooth visualization of procedurally generated assets.   |
 
+```
+- Framework	Role
 
-> Framework	Role
-> Panda3D	Real-time 3D rendering, scene graph management, camera control, and shader support. Enables smooth visualization of procedurally generated assets.
-> Note: Panda3D combines the speed of C++ with the flexibility of Python, making it ideal for rapid prototyping without sacrificing performance. It also supports loading models from
-> Blender (via .gltf, .egg, or .bam formats), which fits perfectly with your pipeline.
+Panda3D	Real-time 3D rendering, scene graph management, camera control, and shader support. Enables smooth visualization of procedurally generated assets.
+Note: Panda3D combines the speed of C++ with the flexibility of Python, making it ideal for rapid prototyping without sacrificing performance. It also supports loading models from
+Blender (via .gltf, .egg, or .bam formats), which fits perfectly with your pipeline.
+```
 
 ### **Procedural Methodology**
 #### 🧱 Layout Generation
